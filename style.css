@@ -1,0 +1,145 @@
+/* Resetare stiluri implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Stilizare body */
+body {
+    background-color: #edcbcb;
+    color: #181a18;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* Stilizare header */
+header {
+    background: #291016;
+    color: white;
+    padding: 20px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.profil {
+    width: 150px; /* Dimensiunea pozei */
+    height: 150px;
+    border-radius: 50%; /* Face poza rotundă */
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Stilizare meniu navigație */
+nav {
+    background: #442526;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8b0505;
+}
+
+/* Stilizare secțiuni */
+section {
+    padding: 40px 20px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Stilizare specifică pentru listele neordonate */
+section ul {
+    text-align: left;
+}
+
+/* Titluri secțiuni */
+h2 {
+    color: #5d0b14;
+    border-bottom: 2px solid #ff00bb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Listă stilizată */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Stilizare link-uri */
+a {
+    color: #ff00bb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Stilizare footer */
+footer {
+    background: #5d0b14;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.cv-button {
+    display: inline-block;
+    background-color: #ff00bb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #ff00bb;
+}
+
+.scrisore-button {
+    display: inline-block;
+    background-color: #ff00bb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.scrisore-button:hover {
+    background-color: #ff00bb;
+}
