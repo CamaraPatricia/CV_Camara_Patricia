@@ -143,3 +143,20 @@ footer {
 .scrisore-button:hover {
     background-color: #ff00bb;
 }
+
+.certificat-button
+{
+    display: inline-block;
+    background-color: #ff00bb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+.certificat-button
+{
+    background-color: #ff00bb;
+}
