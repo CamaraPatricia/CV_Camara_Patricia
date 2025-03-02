@@ -156,7 +156,7 @@ footer {
     margin-top: 10px;
     transition: background 0.3s;
 }
-.certificat-button
+.certificat-button:hover
 {
     background-color: #ff00bb;
 }
